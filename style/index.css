@@ -9,7 +9,7 @@
     --Dark_grayish_blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
 }
-/* ----------MOBILE 375PX---------- */
+/* ----------MOBILE FIRST---------- */
 *{
     box-sizing: border-box;
 }
@@ -132,21 +132,13 @@ footer{
         min-height: 100vh;
         justify-content: center;
     }
-    .container-all-{
-        height: 25em;
-        /* height: 400px; */
-        width: 37.5em;
-        /* width: 600px; */
-    }
     .container-all{
         display: flex;
         margin: 0;
-        width: max-content;
     }
     .container-info{
         justify-content: space-between;
-        width: 21.8em;
-        /* width: 350px; */
+        width: 26.5em;
     }
     .up-title{
         margin-top: 1%;
@@ -173,9 +165,7 @@ footer{
         outline: 0px solid hsl(155, 30%, 12%);
     }
     .image-desk{
-        /* height: 25em; */
         height: 500px;
-        /* width: 21.8em; */
         width: 350px;
         display: inline-block;
         background-repeat: no-repeat;
